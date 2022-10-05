@@ -210,6 +210,9 @@ Then, the client will receive a response as below:
 <br/>
 
 If we return back to the terminal whre our service node is running, we will see a message as below:
+
+<br/>
+
 ![output2](https://user-images.githubusercontent.com/90167023/193986766-dd3dacb0-a7a6-4f7c-94ce-457b176cd195.png)
 
 We can close terminals by pressing ```ctrl+C```.
