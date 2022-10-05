@@ -204,18 +204,13 @@ The terminal will wait until we start a client node following with any two integ
 ros2 run cpp_srvcli client 7 10
 ```
 Then, the client will receive a response as below:
-```
-[INFO] [rclcpp]: Sum: 17
-```
+![output1](https://user-images.githubusercontent.com/90167023/193986591-d021e24b-5ed2-4918-8e01-71133e99b518.png)
 >In my case, I chose 7 and 10, so the addition of 7 and 10 equals to 17.
 
 <br/>
 
 If we return back to the terminal whre our service node is running, we will see a message as below:
-```
-[INFO] [rclcpp]: Incoming request
-a: 7 b: 10
-[INFO] [rclcpp]: sending back response: [17]
-```
+![output2](https://user-images.githubusercontent.com/90167023/193986766-dd3dacb0-a7a6-4f7c-94ce-457b176cd195.png)
+
 We can close terminals by pressing ```ctrl+C```.
 
